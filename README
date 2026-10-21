@@ -1,0 +1,25 @@
+# Webcam AI
+
+YOLOv8n — это самая компактная и быстрая нано-версия (Nano) нейросетевой модели из семейства Ultralytics YOLOv8, предназначенная для распознавания, сегментации и трекинга объектов в режиме реального времени на устройствах с ограниченными ресурсами.
+
+```md
+https://docs.ultralytics.com/usage/python
+```
+
+Утилита Iriun Webcam создает в системе виртуальную веб-камеру, которую OpenCV распознает как обычную встроенную камеру
+```md
+https://iriun.com/
+sudo apt install ./iriunwebcam-2.9.3.deb
+```
+
+
+
+## Linux
+```Venv & Lib Insall
+python -m venv venv
+source venv/bin/activate
+pip install -U ultralytics
+```
+
+
+
